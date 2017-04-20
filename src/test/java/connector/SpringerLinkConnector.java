@@ -1,6 +1,5 @@
 package connector;
 
-import com.sun.media.jfxmedia.logging.Logger;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import java.io.IOException;

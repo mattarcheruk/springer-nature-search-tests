@@ -26,7 +26,7 @@ public class advancedUnsuccessfulSearchTest {
     }
 
     @Test()
-    public void testThatASuccessfulSearchHasAPositiveNumberOfResults()
+    public void testThatAnUnsuccessfulSearchDoesNotReturnAnyResults()
     {
         int numberOfSearchResults = searchResults.getNumberOfSearchResults();
 
@@ -35,7 +35,7 @@ public class advancedUnsuccessfulSearchTest {
     }
 
     @Test()
-    public void testThatASuccessfulSearchHasAtLeastOneContentTypeFacetFilter() {
+    public void testThatAnUnsuccessfulSearchDoesNotReturnAnyContentTypeFacetFilters() {
 
         List<SpringerLinkFacet> contentTypeFacets = searchResults.getContentTypeFacets();
 

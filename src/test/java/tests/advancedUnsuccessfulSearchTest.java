@@ -11,8 +11,6 @@ import java.util.List;
 
 import static org.junit.Assert.assertEquals;
 
-//TODO - Project needs a readme
-
 public class advancedUnsuccessfulSearchTest {
 
     private static SpringerLinkSearchResults searchResults;
